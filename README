@@ -1,0 +1,12 @@
+## Chạy com.payment.Main
+
+Lúc đầu nhập lệnh LOGIN user1 123456
+Lệnh thêm tiền : CASH_IN [balance]
+Xem tất cả hóa đơn: LIST_BILL
+Xem hóa đơn tới hạn và quá hạn: DUE_DATE
+Tìm kiếm hóa đơn theo nhà cung cấp : SEARCH_BILL_BY_PROVIDER [providerName]
+Thanh toán hóa đơn: PAY [billNo] [billNo] ..
+Đặt lịch thanh toán: SCHEDULE [billNo] [ScheduleDate]
+Xem lịch thanh toán: LIST_SCHEDULE
+Xem lịch sữ thanh toán: LIST_PAYMENT
+Thoát: EXIST
